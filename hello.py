@@ -21,7 +21,7 @@ def main():
     print('Supported operations: +, -, *, /, %')
 
     try:
-        x = float(input('Enter the first number: '))gi
+        x = float(input('Enter the first number: '))
         operator = input('Enter an operator (+, -, *, /, %): ').strip()
         y = float(input('Enter the second number: '))
         result = calculate(x, y, operator)
@@ -33,10 +33,6 @@ def main():
         return
 
     print(f'{x} {operator} {y} = {result}')
-
-
-if __name__ == '__main__':
-    main()
 
 
 
